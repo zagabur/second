@@ -1,0 +1,179 @@
+@media (max-width:1140px){
+    .container{
+        max-width: 950px;
+    }
+    .header__content_title{
+        font-size: 50px;
+    }
+    .header__content_underTitle{
+        font-size: 28px;
+    }
+    .header__content_description{
+        text-align: justify;
+    }
+    .header__content_price {
+        font-size: 50px;
+        padding: 20px 60px;
+    }
+    .header__content {
+        padding-bottom: 20px;
+    }
+    .main-menu__list{
+        justify-content: center;
+    }
+    .main-menu__list_link{
+        margin: 0 25px;
+    }
+    .card__content{
+        height: 300px;
+    }
+    .card__content_price{
+        font-size: 22px;
+        padding: 15px 40px;
+    }
+    .card__description{
+        text-align: justify;
+    }
+    .recipe__title{
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+    .recipe__description{
+        font-size: 16px;
+    }
+    .recipe{
+        padding-bottom: 50px;
+    }
+    .section-map__map{
+        height: 400px;
+    }
+    .footer__list {
+        margin: 30px 0;
+    }
+}
+@media(max-width:950px){
+    .container{
+    max-width: 750px;
+    }
+    .header__content_title{
+        text-align: center;
+        font-size: 40px;
+    }
+    .header__content {
+        align-items: center;
+    }
+    .header__content_description{
+        font-size: 16px;
+        margin-bottom: 45px;
+    }
+    .header__content_price {
+        font-size: 30px;
+        padding: 10px 30px;
+    }
+    .main-menu__list {
+        margin-bottom: 30px;
+    }
+    .card__content{
+        height: 240px;
+    }
+    .card__description{
+        line-height: 20px;
+    }
+    .card__title{
+        margin: 15px 0;
+    }
+    .card__content_price{
+        padding: 10px 40px;
+    }
+    .card__content_add{
+        font-size: 20px;
+    }
+    .main-menu{
+        padding: 50px 0;
+    }
+    .recipe{
+        padding: 25px 0;
+    }
+    .recipe__title{
+        font-size: 25px;
+    }
+    .recipe__description{
+        font-size: 14px;
+        line-height: 20px;
+        text-align: justify;
+    }
+    .map__title{
+        font-size: 25px;
+        padding: 25px 0;
+    }
+    .section-map__map{
+        height: 300px;
+    }
+    .logo{
+        padding: 5px 20px;
+        font-size: 20px;
+    }
+    .footer__number{
+        font-size: 20px;
+    }
+    .footer__list_link{
+        margin: 0;
+        font-size: 16px;
+    }
+    .footer__list {
+        justify-content: space-between;
+    }
+    .footer{
+        padding:30px 0;
+    }
+}
+@media (max-width:750px){
+    .container{
+        max-width:640px;
+    }
+    .header__content_title {
+        width: 100%;
+        text-align: left;
+    }
+    .header__content_underTitle {
+        width: 100%;
+        text-align: left;
+    }
+    .header__content_description {
+        margin-bottom: 25px;
+    }
+    .main-menu__list_link{
+        font-size: 16px;
+        margin: 0;
+    }
+    .main-menu__list{
+        justify-content: space-between;
+    }
+    .card {
+        width: 50%;
+    }
+    .card__content{
+        height: 280px;
+    }
+    .recipe__title{
+        margin-bottom: 20px;
+    }
+    .recipe__description{
+        font-size: 12px;
+    }
+    .recipe__description:nth-of-type(1) {
+        margin-bottom: 15px;
+    }
+    .footer__list_link{
+        font-size: 14px;
+
+    }
+    .footer__description{
+        font-size: 14px;
+    }
+}
+@media(max-width:640px){
+    .container{
+        max-width: 520px;
+    }
+}
